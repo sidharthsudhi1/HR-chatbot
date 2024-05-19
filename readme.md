@@ -166,7 +166,7 @@ By specifying the version using py -3.8 or python3.8, you can ensure that the vi
 
 Then you can run the notebook or use the command to run the app:
 
-`streamlit run llm_app.py`
+`streamlit run app.py`
 **NOTE:** Copy your openai api key to the code before running. 
 
 
