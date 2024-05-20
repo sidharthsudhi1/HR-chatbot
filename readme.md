@@ -46,7 +46,7 @@ Activate the virtual environment:
 Install the project requirements using pip:
 
 
-`git clone https://github.com/sidharthsudhi1/HR-chatbot`​
+`git clone https://github.com/sidharthsudhi1/HR-chatbot.git`​
 
 
 `pip install -r requirements.txt`
@@ -80,7 +80,7 @@ Activate the virtual environment:
 Install the project requirements using pip:
 
 
-​`git clone https://github.com/sidharthsudhi1/HR-chatbot`
+​`git clone https://github.com/sidharthsudhi1/HR-chatbot.git`
 ​
 
 `pip install -r requirements.txt`
@@ -126,7 +126,7 @@ Activate the virtual environment:
 Install the project requirements using pip:
 ​
 
-​`git clone https://github.com/sidharthsudhi1/HR-chatbot`
+​`git clone https://github.com/sidharthsudhi1/HR-chatbot.git`
 
 
 `pip install -r requirements.txt`
@@ -165,7 +165,7 @@ Activate the virtual environment:
 Install the project requirements using pip:
 ​
 
-​`git clone https://github.com/sidharthsudhi1/HR-chatbot`
+​`git clone https://github.com/sidharthsudhi1/HR-chatbot.git`
 
 `pip install -r requirements.txt`
 ​
