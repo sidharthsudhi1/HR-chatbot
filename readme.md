@@ -46,7 +46,10 @@ Activate the virtual environment:
 Install the project requirements using pip:
 
 
-`git clone https://github.com/sidharthsudhi1/HR-chatbot.git`​
+`git clone https://github.com/sidharthsudhi1/HR-chatbot.git`
+
+
+`cd HR-chatbot`​
 
 
 `pip install -r requirements.txt`
@@ -81,6 +84,9 @@ Install the project requirements using pip:
 
 
 ​`git clone https://github.com/sidharthsudhi1/HR-chatbot.git`
+
+
+`cd HR-chatbot`
 ​
 
 `pip install -r requirements.txt`
@@ -129,6 +135,9 @@ Install the project requirements using pip:
 ​`git clone https://github.com/sidharthsudhi1/HR-chatbot.git`
 
 
+`cd HR-chatbot`
+
+
 `pip install -r requirements.txt`
 ​
 
@@ -167,6 +176,10 @@ Install the project requirements using pip:
 
 ​`git clone https://github.com/sidharthsudhi1/HR-chatbot.git`
 
+
+`cd HR-chatbot`
+
+
 `pip install -r requirements.txt`
 ​
 
@@ -180,6 +193,8 @@ By specifying the version using py -3.8 or python3.8, you can ensure that the vi
 Then you can run the notebook or use the command to run the app:
 
 `streamlit run app.py`
+
+
 **NOTE:** Copy your openai api key to the code before running. 
 
 
