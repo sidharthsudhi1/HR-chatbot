@@ -5,7 +5,7 @@ In today's data-driven world, the ability to process and generate natural langua
 
 Fine-tuning entails training a pre-trained language model on a specific task or dataset to adapt it for a particular application. It explores full fine-tuning and Parameter Efficient Fine Tuning (PEFT), a technique that optimizes the fine-tuning process by focusing on a subset of the model's parameters, making it more resource-efficient.
 
-The project involves the application of Retrieval Augmented Generation (RAG) using OpenAI's GPT-3.5 Turbo, resulting in the development of a chatbot for online shopping for knowledge grounding. Knowledge grounding with Retrieval Augmented Generation (RAG) is implemented to mitigate hallucinations and provide trustworthy and reliable responses. This is achieved by incorporating information from external sources to validate and support the generated text.
+The project involves the application of Retrieval Augmented Generation (RAG) using OpenAI's GPT-3.5 Turbo, resulting in the development of a Human Resources chatbot for knowledge grounding. Knowledge grounding with Retrieval Augmented Generation (RAG) is implemented to mitigate hallucinations and provide trustworthy and reliable responses. This is achieved by incorporating information from external sources to validate and support the generated text.
 
 For example, in the context of an HR chatbot using RAG, knowledge grounding ensures that availability of jobs, roles and responsibilites, qualification, interview process, etc are sourced from a trusted database or platform. This prevents the chatbot from generating inaccurate or fictional details and instead provides responses based on real-world data.
 
