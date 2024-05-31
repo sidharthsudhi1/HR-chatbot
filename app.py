@@ -118,7 +118,18 @@ def start_chatbot():
             answer = full_response['answer']
             message_placeholder.markdown(answer)
             st.session_state.messages.append({"role": "assistant", "content": answer})
-
+            
+    for question in questions:
+        if st.button(question):
+             st.session_state.messages.append({"role": "user", "content": question})
+             with st.chat_message("user"):
+                 st.markdown(question)
+             with st.chat_message("assistant"):
+                 message_placeholder = st.empty()
+                 full_response = get_answer(st.session_state.messages[-1]["content"], db, chain)
+                 answer = full_response['answer']
+                 message_placeholder.markdown(answer)
+                 st.session_state.messages.append({"role": "assistant", "content": answer})
 
 content_type = st.sidebar.radio("Which Knowledge base you want to use?",
                                 [ALREADY_UPLOADED, UPLOAD_NEW])
