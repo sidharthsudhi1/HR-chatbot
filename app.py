@@ -18,6 +18,15 @@ import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 st.title("Hi, I'm your _HR_ :blue[ChatBot!] 🤖")
+st.write("### I'm here to help you with your inquiries about available job positions.")
+
+questions = questions = [
+    "What jobs are available at present?",
+    "Where is ABC Tech located?",
+    "What are the benifits of working with ABC?",
+    "What are your working hours?",
+]
+
 
 openai.api_key = st.secrets["openai_api_key"]
 os.environ['OPENAI_API_KEY'] = openai.api_key
