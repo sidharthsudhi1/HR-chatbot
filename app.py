@@ -19,7 +19,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 st.title("Hi, I'm your _HR_ :blue[ChatBot!] 🤖")
 
-openai.api_key = 'OPENAI_API_KEY'
+openai.api_key = openai_api_key
 os.environ['OPENAI_API_KEY'] = openai.api_key
 tmp_directory = 'tmp'
 
