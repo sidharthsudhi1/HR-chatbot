@@ -13,6 +13,9 @@ from langchain.embeddings import SentenceTransformerEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chat_models import ChatOpenAI
 from langchain.chains.question_answering import load_qa_chain
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 st.title("Hi, I'm your _HR_ :blue[ChatBot!] 🤖")
 
