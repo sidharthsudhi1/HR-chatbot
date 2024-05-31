@@ -16,7 +16,7 @@ from langchain.chains.question_answering import load_qa_chain
 
 st.title("Hi, I'm your _HR_ :blue[ChatBot!] 🤖")
 
-openai.api_key = 'sk-proj-dSDTuxVfgR2OeqUzy5tzT3BlbkFJDPonEQl7cFF5rkewBAjc'
+openai.api_key = 'OPENAI_API_KEY'
 os.environ['OPENAI_API_KEY'] = openai.api_key
 tmp_directory = 'tmp'
 
